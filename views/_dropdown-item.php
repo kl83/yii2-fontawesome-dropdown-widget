@@ -1,0 +1,1 @@
+<i class='fa fa-2x fa-fw <?= $item ?>' data-value='<?= $item ?>'></i>

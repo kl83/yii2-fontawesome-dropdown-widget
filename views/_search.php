@@ -1,0 +1,1 @@
+<div class='search'><input type='text' class="form-control" placeholder='Search...'></div>

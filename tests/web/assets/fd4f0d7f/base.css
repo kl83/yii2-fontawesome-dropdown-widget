@@ -1,0 +1,33 @@
+.fontawesome-dropdown-widget .dropdown-handler {
+  cursor: pointer;
+}
+.fontawesome-dropdown-widget .dropdown-handler .value {
+  display: inline-block;
+}
+.fontawesome-dropdown-widget .dropdown-handler .value:first-letter {
+  text-transform: uppercase;
+}
+.fontawesome-dropdown-widget .dropdown-menu {
+  max-width: 620px;
+  max-height: 400px;
+  padding-top: 38px;
+  overflow: auto;
+}
+.fontawesome-dropdown-widget .dropdown-menu i {
+  cursor: pointer;
+  padding: 5px;
+}
+.fontawesome-dropdown-widget .dropdown-menu i:hover {
+  background: black;
+  color: white;
+}
+.fontawesome-dropdown-widget .dropdown-menu .search {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.fontawesome-dropdown-widget .dropdown-menu .search input {
+  width: 100%;
+}
+/*# sourceMappingURL=base.css.map */
