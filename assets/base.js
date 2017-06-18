@@ -4,7 +4,7 @@ var fontawesomeWidgetInit = function(el){
     var dropdownIcons = dropdownEl.find('i');
     var dropdownHandlerValueEl = rootEl.find('.dropdown-handler .value');
     var dropdownHandlerIconEl = rootEl.find('.dropdown-handler i');
-    var hiddenInputEl = rootEl.find('input');
+    var hiddenInputEl = rootEl.find('input[type="hidden"]');
     var searchInputEl = dropdownEl.find('.search input');
     dropdownIcons.click(function(){
         var value = $(this).data('value');
