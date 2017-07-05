@@ -1,5 +1,5 @@
 <?php
-namespace kl83\fontawesomedropdownwidget;
+namespace kl83\widgets;
 
 use Yii;
 use yii\helpers\Html;
@@ -35,7 +35,7 @@ class FontawesomeDropdownWidget extends \yii\widgets\InputWidget
 
     public function run()
     {
-        Asset::register($this->view);
+        FontawesomeDropdownAsset::register($this->view);
         $this->view->registerJs("fontawesomeWidgetInit('$this->id')");
         return $this->render('widget', [
             'id' => $this->id,

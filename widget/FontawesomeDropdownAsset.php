@@ -1,7 +1,7 @@
 <?php
-namespace kl83\fontawesomedropdownwidget;
+namespace kl83\widgets;
 
-class Asset extends \yii\web\AssetBundle
+class FontawesomeDropdownAsset extends \yii\web\AssetBundle
 {
     public $js = [
         'base.js',
@@ -12,10 +12,10 @@ class Asset extends \yii\web\AssetBundle
     public $depends = [
         'yii\web\JqueryAsset',
         'yii\bootstrap\BootstrapAsset',
-        'kl83\fontawesomeasset\FontawesomeAsset',
+        'kl83\assets\FontawesomeAsset',
     ];
     public function init()
     {
-        $this->sourcePath = __DIR__.'/assets';
+        $this->sourcePath = __DIR__.'/../dist';
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-use kl83\fontawesomedropdownwidget\FontawesomeDropdownWidget;
+use kl83\widgets\FontawesomeDropdownWidget;
 use yii\widgets\ActiveForm;
 use yii\helpers\Html;
 
@@ -36,6 +36,6 @@ use yii\helpers\Html;
     $formModel->load(Yii::$app->request->get());
 ?>
 <?php $form = ActiveForm::begin([ 'method' => 'get' ]); ?>
-<?= $form->field($formModel, 'faIcon')->widget('kl83\fontawesomedropdownwidget\FontawesomeDropdownWidget'); ?>
+<?= $form->field($formModel, 'faIcon')->widget('kl83\widgets\FontawesomeDropdownWidget'); ?>
 <?= Html::submitButton() ?>
 <?php ActiveForm::end(); ?>
